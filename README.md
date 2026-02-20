@@ -1,5 +1,5 @@
 
-**🛡️ Exam Guard**
+##🛡️ Exam Guard
 
 Windows-Based Exam Monitoring & Violation Detection System (Python)
 
@@ -8,45 +8,50 @@ Exam Guard is a lightweight desktop-based exam monitoring system built using Pyt
 It enforces predefined examination rules by actively monitoring system behavior during an exam session and generating structured violation logs.
 
 
- **Features**
+ ## ✨ Features
 
-. User rule confirmation using GUI dialog
+✅ **Secure Rule Confirmation**  
+Interactive GUI dialog ensures candidates accept exam rules before starting.
 
-. Roll number validation & re-confirmation workflow
+🆔 **Roll Number Verification Workflow**  
+Two-step roll number validation prevents incorrect session tracking.
 
-. Real-time background process monitoring
+🖥 **Real-Time Process Monitoring**  
+Continuously scans background applications for unauthorized tools.
 
-. Active window/tab switch detection
+🔄 **Active Window & Tab Detection**  
+Detects window switching or browser tab changes during the exam.
 
-. USB insertion & removal detection
+🔌 **USB Activity Detection**  
+Monitors USB insertion and removal events.
 
-. Multi-threaded monitoring system
+🧵 **Multi-Threaded Architecture**  
+Concurrent monitoring threads ensure real-time detection without UI freezing.
 
-. Timestamped structured logging (logs.csv)
+📊 **Structured Logging System**  
+All violations are logged with timestamps in `logs.csv`.
 
-. JSON-based rule configuration
+⚙ **JSON-Based Configuration**  
+Rules and blocked applications are managed via configurable JSON files.
 
-. Modular monitoring architecture
+🏗 **Modular Monitoring Design**  
+Each monitoring component runs independently for scalability and maintainability.
 
-** How It Works**
+---
 
-.Displays exam rules and requests confirmation.
+## ⚙️ How It Works
 
-.Prompts candidate to enter and confirm roll number.
+- Displays exam rules and requests user confirmation.  
+- Prompts candidate to enter and reconfirm roll number.  
+- Validates input before starting monitoring session.  
+-  Launches concurrent monitoring threads to track:
+  ** **
+       - 🚫 Unauthorized background applications  
+       - 🔄 Window or tab switching  
+       - 🔌 USB device activity  
 
-.Starts monitoring session upon successful validation.
-
-.Concurrent monitoring threads track:
-
-.Unauthorized background applications
-
-.Window/tab switching
-
-.USB device activity
-
-.Violations are recorded with timestamps.
-
-.Logs are saved in structured CSV format for audit review.
+- Records violations with precise timestamps.  
+- Saves structured logs in CSV format for audit and review.
 
 ## 🏗️ Tech Stack
 
@@ -104,7 +109,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-**📌 System Architecture Overview**
+##📌 System Architecture Overview
 
 .UI Layer → User confirmation & validation (tkinter)
 
@@ -114,7 +119,7 @@ python main.py
 
 .Logging Module → CSV structured audit storage
 
-**🔐 Design Considerations**
+##🔐 Design Considerations
 
 .Real-time concurrent monitoring using threads
 
@@ -126,7 +131,7 @@ python main.py
 
 .Structured audit trail for post-exam review
 
-**🚧 Future Improvements**
+##🚧 Future Improvements
 
 .Screenshot capture on violation
 
@@ -138,11 +143,11 @@ python main.py
 
 .Real-time alert notifications
 
-**📜 License**
+##📜 License
 
 This project is licensed under the MIT License.
 
-**👨‍💻 Author**
+##👨‍💻 Author
 
 Developed by OMKAR REDDY
 
