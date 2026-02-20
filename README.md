@@ -74,28 +74,25 @@ It enforces predefined examination rules by actively monitoring system behavior 
 
 .Platform: Windows OS
 
-**📂 Log Format (Sample):**
-Timestamp	Roll Number	Violation Type	Details
+## 📂 Log File Structure
 
-2026-02-16 22:50:35,587gh856,SYSTEM,ExamGuard started
+ExamGuard generates structured CSV logs in the following format:
 
-2026-02-16 22:50:35,587gh856,WINDOW_OK,Exam window active: CODE TANTRA - Notepad
+| Column Name   | Description |
+|--------------|------------|
+| Timestamp     | Date and time of event |
+| Roll Number   | Student identifier |
+| Event Type    | Type of monitoring event |
+| Details       | Additional event information |
 
-2026-02-16 22:50:35,587gh856,using blocked_app,AnyDesk.exe detected
+###  Sample Log Output
 
-2026-02-16 22:50:35,587gh856,using blocked_app,Code.exe detected
-
-2026-02-16 22:50:41,587gh856,WINDOW_OK,Exam window active: *CODE TANTRA - Notepad
-
-2026-02-16 22:50:47,587gh856,WINDOW_VIOLATION_SHORT,Switched to: 
-
-2026-02-16 22:50:49,587gh856,WINDOW_VIOLATION_SHORT,Switched to: New tab - Google Chrome
-
-2026-02-16 22:50:53,587gh856,WINDOW_VIOLATION_SHORT,Switched to: iohho - Google Search - Google Chrome
-
-2026-02-16 22:50:59,587gh856,WINDOW_OK,Exam window active: *CODE TANTRA - Notepad
-
-2026-02-16 22:51:07,587gh856,WINDOW_VIOLATION_SHORT,Switched to: main.py - examguard - Visual Studio Code
+| Timestamp           | Roll Number | Event Type              | Details                                      |
+|--------------------|------------|--------------------------|----------------------------------------------|
+| 2026-02-16 22:50:35 | 587gh856   | SYSTEM                   | ExamGuard started                            |
+| 2026-02-16 22:50:35 | 587gh856   | WINDOW_OK                | Exam window active: CODE TANTRA - Notepad    |
+| 2026-02-16 22:50:35 | 587gh856   | BLOCKED_APP              | AnyDesk.exe detected                         |
+| 2026-02-16 22:50:35 | 587gh856   | BLOCKED_APP              | Code.exe detected                            |
 
 
 ## ⚙️ Installation & Setup
