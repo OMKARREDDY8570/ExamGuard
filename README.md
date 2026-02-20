@@ -100,11 +100,13 @@ Timestamp	Roll Number	Violation Type	Details
 
 ##**⚙️ Installation & Setup**
 
-git clone https://github.com/yourusername/exam-guard.git
+git clone [https://github.com/yourusername/exam-guard.git](https://github.com/OMKARREDDY8570/ExamGuard.git)
 
-cd exam-guard
+cd ExamGuard
 
 pip install -r requirements.txt
+
+cd agent
 
 python main.py
 
