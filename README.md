@@ -104,9 +104,9 @@ git clone [https://github.com/yourusername/exam-guard.git](https://github.com/OM
 
 cd ExamGuard
 
-pip install -r requirements.txt
-
 cd agent
+
+pip install -r requirements.txt
 
 python main.py
 
