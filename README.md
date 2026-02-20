@@ -48,32 +48,31 @@ It enforces predefined examination rules by actively monitoring system behavior 
 
 .Logs are saved in structured CSV format for audit review.
 
-**🏗️ Tech Stack**
+## 🏗️ Tech Stack
 
-.Language: Python 3.x
+ExamGuard is built using a lightweight but powerful Windows monitoring stack:
 
-**Libraries Used:**
+ **Core Language**
+- Python 3.x
 
-.threading
+ **System & Monitoring**
+- psutil (Process detection)
+- pygetwindow (Active window tracking)
+- os (System interaction)
 
-.psutil
+ **Concurrency**
+- threading (Real-time background checks)
 
-.pygetwindow
+ **Logging & Configuration**
+- csv (Structured logging)
+- json (Configuration management)
+- datetime & time (Timestamp tracking)
 
-.tkinter
+ **Interface**
+- tkinter (Desktop GUI)
 
-.json
-
-.csv
-
-.datetime
-
-.os
-
-.time
-
-.Platform: Windows OS
-
+ **Platform**
+- Windows OS
 ## 📂 Log File Structure
 
 ExamGuard generates structured CSV logs in the following format:
