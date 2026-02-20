@@ -77,11 +77,16 @@ It enforces predefined examination rules by actively monitoring system behavior 
 **📂 Log Format (Sample):**
 Timestamp	Roll Number	Violation Type	Details
 
-2026-02-20 10:14:32	221045	Window Switch	Switched to Chrome
-
-2026-02-20 10:16:02	221045	Unauthorized Application	Discord running in background
-
-2026-02-20 10:18:45	221045	USB Inserted	SanDisk USB Device
+2026-02-16 22:50:35,587gh856,SYSTEM,ExamGuard started
+2026-02-16 22:50:35,587gh856,WINDOW_OK,Exam window active: CODE TANTRA - Notepad
+2026-02-16 22:50:35,587gh856,using blocked_app,AnyDesk.exe detected
+2026-02-16 22:50:35,587gh856,using blocked_app,Code.exe detected
+2026-02-16 22:50:41,587gh856,WINDOW_OK,Exam window active: *CODE TANTRA - Notepad
+2026-02-16 22:50:47,587gh856,WINDOW_VIOLATION_SHORT,Switched to: 
+2026-02-16 22:50:49,587gh856,WINDOW_VIOLATION_SHORT,Switched to: New tab - Google Chrome
+2026-02-16 22:50:53,587gh856,WINDOW_VIOLATION_SHORT,Switched to: iohho - Google Search - Google Chrome
+2026-02-16 22:50:59,587gh856,WINDOW_OK,Exam window active: *CODE TANTRA - Notepad
+2026-02-16 22:51:07,587gh856,WINDOW_VIOLATION_SHORT,Switched to: main.py - examguard - Visual Studio Code
 
 
 ##**⚙️ Installation & Setup**
