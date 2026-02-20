@@ -1,0 +1,6 @@
+{
+  "allowed_windows": ["CODE TANTRA"],
+  "window_interval": 2,
+  "window_threshold": 10,
+  "process_interval": 100
+}
