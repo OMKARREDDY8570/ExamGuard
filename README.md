@@ -98,17 +98,15 @@ Timestamp	Roll Number	Violation Type	Details
 2026-02-16 22:51:07,587gh856,WINDOW_VIOLATION_SHORT,Switched to: main.py - examguard - Visual Studio Code
 
 
-##**⚙️ Installation & Setup**
+## ⚙️ Installation & Setup
 
-git clone [https://github.com/yourusername/exam-guard.git](https://github.com/OMKARREDDY8570/ExamGuard.git)
-
+```bash
+git clone https://github.com/yourusername/exam-guard.git
 cd ExamGuard
-
 cd agent
-
 pip install -r requirements.txt
-
 python main.py
+```
 
 **📌 System Architecture Overview**
 
