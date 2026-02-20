@@ -1,5 +1,5 @@
 
-##🛡️ Exam Guard
+## 🛡️ Exam Guard
 
 Windows-Based Exam Monitoring & Violation Detection System (Python)
 
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-##📌 System Architecture Overview
+## 📌 System Architecture Overview
 
 .UI Layer → User confirmation & validation (tkinter)
 
@@ -119,7 +119,7 @@ python main.py
 
 .Logging Module → CSV structured audit storage
 
-##🔐 Design Considerations
+## 🔐 Design Considerations
 
 .Real-time concurrent monitoring using threads
 
@@ -131,7 +131,7 @@ python main.py
 
 .Structured audit trail for post-exam review
 
-##🚧 Future Improvements
+## 🚧 Future Improvements
 
 .Screenshot capture on violation
 
@@ -143,11 +143,11 @@ python main.py
 
 .Real-time alert notifications
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Developed by OMKAR REDDY
 
