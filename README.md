@@ -109,7 +109,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📌 System Architecture Overview
+## 📌 System Architecture Overview 
 
 .UI Layer → User confirmation & validation (tkinter)
 
